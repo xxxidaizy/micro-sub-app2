@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+import { MoonOutlined } from '@ant-design/icons';
 import './App.css';
 
 function App() {
   return (
-    <div className="App" id="container2">
+    <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <MoonOutlined className="App-logo" />
         <p>
           Sub APP 2.
         </p>
