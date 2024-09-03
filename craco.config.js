@@ -3,7 +3,7 @@ const { name } = require("./package.json");
 module.exports = {
   webpack: {
     configure: (webpackConfig) => {
-      webpackConfig.output.library = `${name}-[name]`;
+      webpackConfig.output.library = `${name}-name`;
       webpackConfig.output.libraryTarget = "umd";
       webpackConfig.output.chunkLoadingGlobal = `webpackJsonp_${name}`;
       return webpackConfig;
