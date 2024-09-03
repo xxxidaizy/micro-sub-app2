@@ -12,7 +12,7 @@ function render(props) {
   const { container } = props;
   root = root || ReactDOM.createRoot(container ? container.querySelector('#appRoot2') : document.getElementById('appRoot2'))
   root.render(
-    <BrowserRouter basename={window.__POWERED_BY_QIANKUN__ ? '/react-micro2' : '/'}>
+    <BrowserRouter basename={window.__POWERED_BY_QIANKUN__ ? '/micro2' : '/'}>
       <React.StrictMode>
         <App />
       </React.StrictMode>
